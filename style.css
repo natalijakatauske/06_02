@@ -1,0 +1,121 @@
+a {
+    text-decoration: none;
+}
+
+.logo {
+    padding-left: 20px;
+}
+
+.window {
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.window .sidebar {
+    background-color: rgb(45, 44, 44);
+    color: #ddd;
+    position: absolute;
+    width: 250px;
+    transition-duration: 5s;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.separator {
+    border-top: 1 px solid #111111;
+    border-bottom: 1px solid #353535;
+    margin: 20px;
+}
+
+.window .sidebar .menu a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.no-bullets {
+    list-style-type: none;
+}
+
+.menu {
+    padding: 0 20px;
+    font-size: 1.2rem;
+}
+
+.window .sidebar .menu > ul >li {
+    list-style: none;
+}
+
+.window .sidebar .menu > ul >li > a {
+    font-weight: bold;
+    /* display: block; */
+    /* position: relative; */
+}
+
+/* .window .sidebar .menu > ul >li ul {
+    display: none;
+} */
+
+.grey {
+    color: #999;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.window .main {
+    position: relative;
+    margin-left: 250px;
+}
+
+.title-bar {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+}
+
+.left {
+    font-size: 15px;
+    text-transform: uppercase;
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.right a {
+    color: #999;
+    margin-left: 10px;
+}
+
+.left p {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.blue {
+    color: rgb(20, 84, 147);
+}
+
+.list {
+    list-style-type: none;
+}
+
+.list li {
+    padding-bottom: 30px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.genre {
+    font-size: 15px;
+    color: #999;
+}
